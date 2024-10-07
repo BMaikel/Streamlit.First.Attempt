@@ -4,4 +4,4 @@ streamlit
 streamlit
 seaborn
 matplotlib
->>>>>>> 845019a (Initial commit)
+streamlit-option-menu

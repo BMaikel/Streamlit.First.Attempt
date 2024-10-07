@@ -11,7 +11,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-
 model_stress = pickle.load(open('rf_model_comedor.pkl', 'rb'))
 
 with st.sidebar:

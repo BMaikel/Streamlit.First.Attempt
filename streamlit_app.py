@@ -3,12 +3,14 @@ import streamlit as st
 import numpy as np
 import pickle
 
+
 st.set_page_config(
     page_title="Encuesta de Salud Mental",
     #page_icon="./images/logo-naal.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
 
 model_stress = pickle.load(open('rf_model_comedor.pkl', 'rb'))
 
